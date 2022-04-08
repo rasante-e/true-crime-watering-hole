@@ -1,0 +1,22 @@
+{
+  "name": "true-crime-watering-hole",
+  "version": "1.0.0",
+  "description": "A hub to keep up with all things true crime related",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rasante-e/true-crime-watering-hole.git"
+  },
+  "author": "RNA Eccleston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rasante-e/true-crime-watering-hole/issues"
+  },
+  "homepage": "https://github.com/rasante-e/true-crime-watering-hole#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
