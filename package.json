@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/rasante-e/true-crime-watering-hole#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.1.3",
+    "http-server": "^14.1.0"
   }
 }
