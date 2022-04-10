@@ -49,16 +49,58 @@
 
       <!--End of header-->
 
-      <!--Beginning of Form-->
-      <div id="wishlist-form" class="container col-8 mx-auto my-4">
+     
+      <div id="wishlist-and-form" class="container-fluid row">
+ <!--Beginning of Form-->
+      <div id="wishlist-form" class="container col-6 mx-auto my-4">
         <a name="form"></a>
         <h4>Update Your Wishlist</h4>
         <div id="actual-wishlist" class="container"></div>
+        <div id="form" class="container flex-container">
+          <p>Enter new items below.</p>
+          <form id="list-form" class="form-control form-control-lg">
+          <label for="name">Name: </label></br>
+          <input type="text" id="name" name="name" required></br>
+      
+          <label for="type">Type:</label></br>
+          <input type="text" id="type" name="type" required></br>
+      
+          <label for="url">URL:</label></br>
+          <input type="url" id="url" name="url" required style="margin-bottom:1em;"></br>
+      
+          <input type="submit" id="submit" value="Add to List" onclick="saveFormData()" return false>
+          </br>
+      </br>
+      </form>
+      </div>
       </div>
       <!--End of form-->
 
+      <!--Beginning of container to hold wishlist-->
+      <div id="wish-list-container" class="container col-md-6 col-sm-12 accordion mx-auto">
+        <div class="accordion-item align-text-top my-4">
+          <div class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#wishlist-accordion" aria-expanded="true" aria-controls="wishlist-accordion">
+              My True Crime Wishlist
+            </button>
+          </div>
+
+          <div id="wishlist-accordion" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              <ul id="wish-list">
+
+              </ul>
+        </div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+
       <!--Div to hold IMDB list and Reddit Posts-->
       <div id="imdb-and-reddit" class="container-fluid row">
+
+
         <div id="imdb-list-container" class="container col-md-6 col-sm-12 accordion mx-auto">
           <div class="accordion-item">
             <div class="accordion-header">
@@ -67,7 +109,7 @@
               </button>
             </div>
 
-            <div id="movie-list-accordion" class="accordion-collapse collapse show">
+            <div id="movie-list-accordion" class="accordion-collapse collapse">
               <div class="accordion-body">
                 <ul id="actual-imdb-list">
 
