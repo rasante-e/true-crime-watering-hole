@@ -1,0 +1,87 @@
+{
+  "title": "Best True Crime Documentary",
+  "by": "leavey-2",
+  "created": "09 Nov 2018",
+  "updated": "02 Dec 2018",
+  "description": "The true crime documentary is a genre that has gained a lot of popularity on TV in recent years.This is a list with the 35 most popular \"crime-docu\" films or series, counted by number of votes on IMDb. Which one is your favorite?Discuss the list here",
+  "items": [
+    {
+      "id": "tt0310793",
+      "index": "101",
+      "title": "Bowling for Columbine",
+      "fullTitle": "Bowling for Columbine (2002)",
+      "year": "2002",
+      "image": "https://imdb-api.com/images/original/MV5BOWY2OWM1ODEtNDU5OS00MjMwLTliYzItZWZlOTEyYmQ2Njg4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.6800_AL_.jpg",
+      "imDbRating": "8",
+      "imDbRatingCount": "143559",
+      "description": "Michael Moore (dir.), Michael Moore, Charlton Heston"
+    },
+    {
+      "id": "tt5189670",
+      "index": "102",
+      "title": "Making a Murderer",
+      "fullTitle": "Making a Murderer (2015–2018)",
+      "year": "2015",
+      "image": "https://imdb-api.com/images/original/MV5BMTg4Mjc1NjE4Ml5BMl5BanBnXkFtZTgwMjk2NjA1NjM@._V1_Ratio0.6800_AL_.jpg",
+      "imDbRating": "8.6",
+      "imDbRatingCount": "93143",
+      "description": "Steven Avery, Dolores Avery"
+    },
+    {
+      "id": "tt1645089",
+      "index": "103",
+      "title": "Inside Job",
+      "fullTitle": "Inside Job (2010)",
+      "year": "2010",
+      "image": "https://imdb-api.com/images/original/MV5BMTQ3MjkyODA2Nl5BMl5BanBnXkFtZTcwNzQxMTU4Mw@@._V1_Ratio0.6800_AL_.jpg",
+      "imDbRating": "8.2",
+      "imDbRatingCount": "74612",
+      "description": "Charles Ferguson (dir.), Matt Damon, Gylfi Zoega"
+    },
+    {
+      "id": "tt1587707",
+      "index": "104",
+      "title": "Exit Through the Gift Shop",
+      "fullTitle": "Exit Through the Gift Shop (2010)",
+      "year": "2010",
+      "image": "https://imdb-api.com/images/original/MV5BMjE2NTg1NDM4Ml5BMl5BanBnXkFtZTcwMzMxOTkyMw@@._V1_Ratio0.6800_AL_.jpg",
+      "imDbRating": "8",
+      "imDbRatingCount": "65806",
+      "description": "Banksy (dir.), Banksy, Mr. Brainwash"
+    },
+    {
+      "id": "tt1313104",
+      "index": "105",
+      "title": "The Cove",
+      "fullTitle": "The Cove (2009)",
+      "year": "2009",
+      "image": "https://imdb-api.com/images/original/MV5BMzM3NTRhMTctNTE2MS00YjJmLWE2ZmMtMmY3MWI0ODExMTMzXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_Ratio0.6800_AL_.jpg",
+      "imDbRating": "8.4",
+      "imDbRatingCount": "49297",
+      "description": "Louie Psihoyos (dir.), Richard O'Barry, Louie Psihoyos"
+    },
+    {
+      "id": "tt1966604",
+      "index": "106",
+      "title": "The Imposter",
+      "fullTitle": "The Imposter (2012)",
+      "year": "2012",
+      "image": "https://imdb-api.com/images/original/MV5BN2RkOGI3NjAtMzllOC00MGQ3LWI4NDEtNTI4NGM0Nzg2ZGFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_Ratio0.6800_AL_.jpg",
+      "imDbRating": "7.5",
+      "imDbRatingCount": "47403",
+      "description": "Bart Layton (dir.), Adam O'Brian, Nicholas Barclay"
+    },
+    {
+      "id": "tt1232207",
+      "index": "107",
+      "title": "Capitalism: A Love Story",
+      "fullTitle": "Capitalism: A Love Story (2009)",
+      "year": "2009",
+      "image": "https://imdb-api.com/images/original/MV5BMTYyMTA2MTE4NF5BMl5BanBnXkFtZTcwNTgwMDE4Mg@@._V1_Ratio0.6800_AL_.jpg",
+      "imDbRating": "7.4",
+      "imDbRatingCount": "42458",
+      "description": "Michael Moore (dir.), Michael Moore, William Black"
+    }
+  ],
+  "errorMessage": ""
+}
