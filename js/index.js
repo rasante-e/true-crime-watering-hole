@@ -10,18 +10,15 @@ async function buildList () {
     const response = await fetch(request);
     const movies = await response.json();
 
-    /*
+    //For loop to create each movie list item
     for (var i = 0; i < 6; i++) {
-        //console.log(i);
         
         var movie = document.createElement("li");
         movieList.appendChild(movie);
-        article.classList.add("retrieved");
-        article.innerHTML = "Name: " + obj[i].name + "<br>" + "Type: " + obj[i].type + "<br>" + obj[i].url;
+        movie.classList.add("retrieved");
+        movie.innerHTML = "Name: " + movies.items[i].title + "<br>" + "Year: " + movies.items[i].year + "<br>" + "IMDb rating: " + movies.items[i].imDbRating;
         
-    }*/
-    console.log(movies.items);
-    //console.log(typeof movies);
+    }
 }
 
 buildList();

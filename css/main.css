@@ -22,3 +22,8 @@ div#menu > a {
 div#menu > a:hover {
     color:white;
 } 
+
+.retrieved {
+    list-style:none;
+    margin-bottom:1em;
+}
