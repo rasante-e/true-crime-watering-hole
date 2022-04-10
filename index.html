@@ -10,39 +10,42 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css" />
     <meta charset="utf-8" />
     <title>True Crime Watering Hole</title>
   </head>
   <body>
-    <div id="name" class="container-fluid">
-
+    <div id="main" class="container-fluid">
       <!--Header items start-->
       <div id="headers" class="container-md">
         <div id="inner-header" class="col-8 mx-auto my-4">
-        <h3>Welcome to the True Crime Watering Hole!</h3>
-        <p>Stay up to date on the latest true crime in all forms of media. Create and edit a wishlist. Feeling indecisive? Press a button for a random recommendation!</p>
-        Hearts of the stars paroxysm of global death laws of physics vanquish
-        the impossible cosmos the ash of stellar alchemy. Shores of the cosmic
-        ocean from which we spring two ghostly white figures in coveralls and
-        helmets are softly dancing hundreds of thousands the carbon in our apple
-        pies the only home we've ever known. A very small stage in a vast cosmic
-        arena made in the interiors of collapsing stars finite but unbounded
-        stirred by starlight descended from astronomers star stuff harvesting
-        star light and billions upon billions upon billions upon billions upon
-        billions upon billions upon billions.
+          <h3>Welcome to the True Crime Watering Hole!</h3>
+          <p>
+            Stay up to date on the latest true crime in all forms of media.
+            Create and edit a wishlist. Feeling indecisive? Press a button for a
+            random recommendation!
+          </p>
+          Hearts of the stars paroxysm of global death laws of physics vanquish
+          the impossible cosmos the ash of stellar alchemy. Shores of the cosmic
+          ocean from which we spring two ghostly white figures in coveralls and
+          helmets are softly dancing hundreds of thousands the carbon in our
+          apple pies the only home we've ever known. A very small stage in a
+          vast cosmic arena made in the interiors of collapsing stars finite but
+          unbounded stirred by starlight descended from astronomers star stuff
+          harvesting star light and billions upon billions upon billions upon
+          billions upon billions upon billions upon billions.
+        </div>
       </div>
 
+      <!--Menu starts here-->
+      <div id="menu" class="fluid">
+        <a href="#form">Form</a>
+        <a href="#surprise-me">Randomizer</a>
+        <a href="#wishlist">Wishlist</a>
+        <a href="#reddit">Reddit</a>
+        <a href="imdb">IMDb</a>
+        <a href="podcasts">Podcasts</a>
       </div>
-
-<div id="menu" class="fluid">
-<a href="#form">Form</a>
-<a href="#surprise-me">Randomizer</a>
-<a href="#wishlist">Wishlist</a>
-<a href="#reddit">Reddit</a>
-<a href="imdb">IMDb</a>
-<a href="podcasts">Podcasts</a>
-</div>
 
       <!--End of header-->
 
@@ -50,12 +53,50 @@
       <div id="wishlist-form" class="container col-8 mx-auto my-4">
         <a name="form"></a>
         <h4>Update Your Wishlist</h4>
-        <div id="actual-wishlist" class="container">
+        <div id="actual-wishlist" class="container"></div>
+      </div>
+      <!--End of form-->
 
+      <!--Div to hold IMDB list and Reddit Posts-->
+      <div id="imdb-and-reddit" class="container-fluid row">
+        <div id="imdb-list-container" class="container col-6 accordion mx-auto">
+          <div class="accordion-item">
+            <div class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#movie-list-accordion" aria-expanded="true" aria-controls="movie-list-accordion">
+                Top True Crime Documentaries and TV Shows
+              </button>
+            </div>
+
+            <div id="movie-list-accordion" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <ul id="actual-imdb-list">
+
+                </ul>
+
+
+            Consciousness realm of the galaxies a billion trillion emerged into
+            consciousness another world Cambrian explosion. Hearts of the stars
+            encyclopaedia galactica a very small stage in a vast cosmic arena
+            the only home we've ever known white dwarf hearts of the stars.
+            Across the centuries with pretty stories for which there's little
+            good evidence at the edge of forever Neque porro quisquam est Ut
+            enim ad minima veniam across the centuries and billions upon
+            billions upon billions upon billions upon billions upon billions
+            upon billions.
+          </div>
+          </div>
+          </div>
         </div>
-
+        <div id="reddit-post-container" class="container col-6 mx-auto">
+          Birth astonishment a billion trillion radio telescope preserve and
+          cherish that pale blue dot encyclopaedia galactica? Ship of the
+          imagination the sky calls to us the carbon in our apple pies from
+          which we spring great turbulent clouds dream of the mind's eye. Across
+          the centuries two ghostly white figures in coveralls and helmets are
+          softly dancing the only home we've ever known stirred by starlight a
+          still more glorious dawn awaits across the centuries?
         </div>
-
+      </div>
     </div>
 
     <!--
