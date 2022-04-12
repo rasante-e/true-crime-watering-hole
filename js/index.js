@@ -1,3 +1,4 @@
+const https = require('https');
 
 //Code to fetch IMDb list data and convert to an HTML list
 var movieList = document.getElementById("actual-imdb-list");
@@ -23,3 +24,38 @@ async function buildList () {
 
 buildList();
 
+
+//Connecting to RestDB, which contains user's wishlist
+
+var options = {
+    "method": "GET",
+    "hostname": "https://tcwishlist-71b8.restdb.io/",
+    "path": "/rest",
+    "port": 443,
+    "headers": {
+      "Content-Type": "application/json",
+      "x-apikey": "6251fbbf67937c128d7c9640",
+      "Cache-Control": "no-cache"
+    }
+};
+
+https.get(options, (res) => {
+    let body = "";
+
+    res.on("data", (chunk) => {
+        body += chunk;
+    });
+
+    res.on("end", () => {
+        try {
+            let json = JSON.parse(body);
+            // do something with JSON
+            console.log(json);
+        } catch (error) {
+            console.error(error.message);
+        };
+    });
+
+}).on("error", (error) => {
+    console.error(error.message);
+});

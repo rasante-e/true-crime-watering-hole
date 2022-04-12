@@ -1,0 +1,2 @@
+,
+    "watch": "watchify browser.js -o static/bundle.js --debug --verbose"
