@@ -1,4 +1,7 @@
 const https = require('https');
+const Reddit = require('reddit');
+require('dotenv').config();
+console.log(process.env.API_KEY); // remove this after you've confirmed it working
 
 //Code to fetch IMDb list data and convert to an HTML list
 var movieList = document.getElementById("actual-imdb-list");
@@ -23,6 +26,8 @@ async function buildList () {
 }
 
 buildList();
+
+//Pulling data using Reddit API
 
 
 //Connecting to RestDB, which contains user's wishlist
