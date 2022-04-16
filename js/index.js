@@ -6,13 +6,46 @@ const testVar = process.env.PASSWORD;
 console.log(testVar);
 */
 
-const secrets = require("../secrets.json");
+//MAKE BELOW LINE LIVE
+//const secrets = require("../secrets.json");
 
-console.log(secrets);
+//console.log(secrets);
+/*
+const username = JSON.stringify(secrets[0]);
+console.log(username);
+*/
+
+//MAKE BELOW LINE LIVE
+//const username = JSON.stringify(secrets.USERNAME);
+
+
+
+
+/*
+"USERNAME":"ADD",
+"PASSWORD":"ADD",
+"API_KEY":"ADD",
+"API_SECRET":"ADD"
+*/
 
 //console.log(process.env.PASSWORD); // remove this after you've confirmed it working
 const https = require('https');
 const Reddit = require('reddit');
+
+
+const reddit = new Reddit({
+    username: 'amadeozed',
+    password: 'moLtIceraRIG',
+    appId: 'GTSchw9ca6cVOR3bkPmZNg',
+    appSecret: 'xDkb4kpXs-tLml5Lxh9XnmOqVf9IWw',
+    userAgent: 'https://github.com/rasante-e'
+  });
+
+ /* 
+  const res = await reddit.get('/r/UnresolvedMysteries/new', {
+count:"2"
+  })
+*/
 
 
 //Code to fetch IMDb list data and convert to an HTML list
