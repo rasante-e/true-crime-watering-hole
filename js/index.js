@@ -1,7 +1,19 @@
+
+
+/*
+require('dotenv').config("../.env");
+const testVar = process.env.PASSWORD;
+console.log(testVar);
+*/
+
+const secrets = require("../secrets.json");
+
+console.log(secrets);
+
+//console.log(process.env.PASSWORD); // remove this after you've confirmed it working
 const https = require('https');
 const Reddit = require('reddit');
-require('dotenv').config();
-console.log(process.env.API_KEY); // remove this after you've confirmed it working
+
 
 //Code to fetch IMDb list data and convert to an HTML list
 var movieList = document.getElementById("actual-imdb-list");
