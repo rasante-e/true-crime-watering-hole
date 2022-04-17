@@ -30,17 +30,14 @@ console.log(username);
 
 //console.log(process.env.PASSWORD); // remove this after you've confirmed it working
 const https = require('https');
-const Reddit = require('reddit');
 
 
-const reddit = new Reddit({
-    username: 'amadeozed',
-    password: 'moLtIceraRIG',
-    appId: 'GTSchw9ca6cVOR3bkPmZNg',
-    appSecret: 'xDkb4kpXs-tLml5Lxh9XnmOqVf9IWw',
-    userAgent: 'https://github.com/rasante-e'
-  });
+  /*
+  reddit.get(/r/UnresolvedMysteries.json) {
 
+  }
+
+  */
  /* 
   const res = await reddit.get('/r/UnresolvedMysteries/new', {
 count:"2"
